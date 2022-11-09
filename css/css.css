@@ -2,31 +2,28 @@
 {
 	display:flex;
 	flex-direction:column;
-	border:2px solid black;
-	margin:250px;
-	margin-top:5px;
-	margin-bottom:5px;
+	margin-top:10px;
+	margin-bottom:10px;
 }
 .main .header
 {
 	display:flex;
 	flex-direction:column;
 	background-color:black;
-	/*justify-content:center;*/
+	align-items:center;
 }
 .main .header .text1
 {
 	height:30px;
-	width:100px;
+	width:150px;
 	background-color:green;
-	margin:0px auto;
 	margin-bottom:5px;
 	margin-top:5px;
 }
 .main .header .text2
 {
 	height:20px;
-	width:50px;
+	width:80px;
 	background-color:gray;
 	margin:0px auto;
 	margin-bottom:5px;
@@ -43,8 +40,8 @@
 }
 .main .body .text
 {
-	height:100px;
-	width:200px;
+	height:150px;
+	width:300px;
 	background-color:white;
 	margin:0px auto;
 	margin-top:10px;
@@ -61,7 +58,7 @@
 .main .footer .text
 {
 	height:20px;
-	width:50px;
+	width:80px;
 	background-color:gray;
 	margin:5px;
 }
